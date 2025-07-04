@@ -23,7 +23,7 @@ class MainWindow(CTk):
         self.btn = CTkButton(self, text="▶️", command=self.toggle_show_menu, width=30)
         self.btn.place(x=0, y=0)
 
-        # main
+
         self.chat_field = CTkScrollableFrame(self, fg_color="#87CEFA")
         self.chat_field.place(x=0, y=0)
 
@@ -38,7 +38,7 @@ class MainWindow(CTk):
         self.open_img_button = CTkButton(self, text="3", width=50, height=40, command=self.open_image)
         self.open_img_button.place(x=0, y=0)
 
-        # emoji button and menu
+        
         self.emoji_button = CTkButton(self, text="😊", width=40, height=40, command=self.toggle_emoji_menu)
         self.emoji_button.place(x=0, y=0)
 
